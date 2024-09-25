@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--DO NOT ALTER. This is the -->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://www.linkedin.com/in/ethan-stone-55703b1a2/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://www.linkedin.com/in/ethan-stone-55703b1a2/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Ethan Stone</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--INTRODUCTION AND ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website is the geoportfolio of Ethan Stone. The website entails
+		information that is academically and profesionally related to the field of geospatial science
+		<p>
+			I am currently studying Geospatial Science at RMIT in my 4th final year as well as working as a land surveyor in which I have been working since 2021.  
+			I am very keen to take steps on progressing my career further and have been looking at potential options to enhance my knowledge of my chosen study areas. 
+			I am a lover of travelling and the great outdoors and believe that with my prior knowledge as a land surveyor and my current study area of geospatial science I would be greatly suited to excelling within this field. 
+		</p>
+		<p>
+		</p>	
+	<img src="selfportrait.JPG" height="500px" width="auto" class="image"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	<!--END OF INTRODUCTION AND ABOUT SECTION-->
+
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Earth Observation Science</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs"> <!-- #ID# #AP TEXT# -->
+		Earth Observation Science consists of analysing landforms using spatial data by using coding within USGS's Earth Explorer. This subject was primarily pracitcal based with only two main assessments accompanied by 4 practicals.
+		
+		<ul> <!--Bullet points below-->
+			<li>Practical 2: Created a report based off spectral response across seasons in different areas</li>
+			<li>Practical 3: Land cover classification of the Margaret River Region</li>
+			<li>Practical 4: Analysing Stomatal conductance within vineyards in Coonawarra</li>
+		</ul> <!--End of bullet points-->
+		<p>
+			Below are the three screenshots from the above practicals. 
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Example of NBR from Prac 2 </h3></div> <!--Assignment name-->
+	<img src="NBR.jpg" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<div class="bar"><h3>Margaret River Classification from Prac 3 </h3></div> <!--Assignment name-->
+	<img src="margaretriverregion.jpg" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<div class="bar"><h3>Coonawarra NDVI from Prac 4 </h3></div> <!--Assignment name-->
+	<img src="NDVI.jpg" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<!--END OF SUBJECT 1-->
+
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>SIS Analytics</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs">
+		SIS Analytics involved the use of programs such as ArcMap and ArcGIS pro to enhance and manipulate spatial data for the outputs of maps and reports.
+		<ul>
+	The Subject involved participating in a range of Labs and 2 assesments: The first assessment involved the creation of maps across victoria of priamry schools and rainfall looking at distribution
+	using Universal Kriging and other weighting functions. Assessment 2 then investiagetd How Regional Migratrion has changed in Australia from 2010 to 2022. 
+
+	The Labs each looked at similar topics investigating Spatial interpolation, Analysing Spatial Patterns and Spatial relationships.
+	
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Kernal Density Map of Primary Schools </h3></div>
+	<img src="KernalDensityMap.jpg" width="auto" height="700px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Population Analysis 2010-2022 </h3></div>
+	<img src="2010_Analysis.png" width="40%" height="auto" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<img src="2022_Analysis.png" width="40%" height="auto" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Victorian rainfall</h3></div>
+	<img src="UNIKrigMap.jpg" width="auto" height="1000px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="paragraphs">
+		This page will briefly cover all my work experience (as of September 2024) within the geospatial science and Surveying industries. The main Company I have worked for is JCA Land consultants.
+		I have worked with JCA for 3.5 years and as of August 2024, i have recived a role at Jacobs as a geospatial consultant.
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>JCA Land Consulatnts</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="JCA_logo.png" width="auto" height="100px" class="image"> <!-- #ID# #COMPANY# #PICTURE# Change the image to be of a company logo you have worked for-->
+	<div class="job-title">Geospatial Intern - Image Processor</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">February 2021 - current, September 2024</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		I have worked for JCA Land Consultants alongside my surveying studies for the last 3.5 years. I started at JCA in Feb 2021 whilst i was studying an advanced diploma of surveying.
+		I have completed work as a Junior Project Surveyor at JCA Land Consultants. 
+		Within this time period I have become familiar with all types of Cadastral Surveying processes whilst completing a large variety of field work as well as office processing using Listech Neo software.
+	
+		<p>
+		As part of the Survey team, the work I was required to process and follow jobs through from the field data collection to office processing and drafting. Through this i have learnt 
+		the skills of a surveyor as well as enabling good quality assurance to ensure that the clients are recieving high quality output.
+		</p>
+	</div>
+	<!--END OF COMPANY 1-->
+	
+	
+	<!--COMPANY 2-->
+
+	<div class="bar"><h3>Jacobs</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="Jacobs-Logo.png" width="auto" height="100px" class="image"> <!-- #ID# #PICTURE# Change the image to be of a company logo you have worked for-->
+	<div class="job-title">Graduate Geospatial Consultant</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">August 2024 - Present (as of September 2024)</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		I have just recently recived a graduate role as a geospatial consultant with Jacobs Australia. I am yet to start full work but am part of their Melbourne Team, due to awaiting job clearance.
+		I am keen to progress and develop my geospatial career with the Jacobs Team and look foward to teh work i am exposed to.
+	
+		</p>
+	</div>
+	<!--END OF COMPANY 2-->
+
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/GIS.png" class="iconimages"></td>
+				<td>GIS</td>
+                <td><img src="Icons/QGIS-icon.png" class="iconimages"></td>
+				<td>QGIS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cartography-icon.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+                <td><img src="ListechNeo.png" class="iconimages"></td>
+				<td>Listech Neo</td>
+            </tr>
+            <tr>
+                <td><img src="arcgis-pro.png" class="iconimages"></td>
+				<td>ArcGIS Pro</td>
+                <td><img src="Icons/drone-icon.png" class="iconimages"></td>
+				<td>Photogrammetry and Drone Mapping</td>
+            
+            </tr>
+        </table>
+    </div>
+	<!--END OF Skills and Proficiencies table-->
+
+
+	<!--CREDITS AND ATTRIBUTIONS-->
+	<div class="pagetitle" id="credits"> <!-- #ID# #CREDITS#-->
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="paragraphs">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>SIS Analytics (GEOM1057)</li>
+            <li>Earth Observation Science (GEOM2084)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nicholas Lee</li>
+            <li>Shinjita Das </li>
+
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Stockio - Flaticon</a></th>
+            <th><img src="Icons/sql.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by monkik - Flaticon</a></th>
+            <th><img src="Icons/cartography-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe illustrator icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/adobe-illustrator.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/python-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/web-design.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/web-site" title="web site icons">Web site icons created by wanicon - Flaticon</a></th>
+            <th><img src="Icons/webgis.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Smashicons - Flaticon</a></th>
+            <th><img src="Icons/drone-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+	<!--END OF CREDITS AND ATTRIBUTIONS-->
+
+
+
+	<!--FOOTER-->
+	<div class="footer"> 
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Ethan Stone.
+		</div>
+		<table class="contacttable"> <!-- #ID# #CONTACT# -->
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>452 Flinders Street, Melbourne 97403</th>
+				<th>
+					Email Ethan Stone here:
+					<br><a href = "stoneyess1@gmail.com">stoneyess1@gmail.com</a>
+				</th>
+				<th>Mobile:
+					<br>0418 229 987
+				</th>
+			</tr>
+		</table>
+	</div>
+	<!--END OF FOOTER-->
+
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
